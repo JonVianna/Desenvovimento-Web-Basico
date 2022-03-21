@@ -1,0 +1,25 @@
+/* Este é minha folha de estilo CSS */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50pt;
+    color: bisque;
+
+    /* definir paleta de cores >> https://color.adobe.com/pt/create */
+    background-color: blue;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+.destaque{
+    font-size: 20px;
+    text-align: right;
+}
+
+.pequeno{
+    font-size: 10px;
+    text-align: left;
+}
