@@ -1,0 +1,102 @@
+body{
+    background-color: #F1F5B7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #005B6B;
+    font-size: 70pt;
+    font-weight: normal;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.banner{
+    position: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 700pt;
+}
+
+.imagem1{
+    margin-left: 300px;
+    max-width: 200pt;
+    margin-top: 50px;
+}
+
+.imagem2{
+    margin-left: 300px;
+    max-width: 200pt;
+    margin-top: 100px;
+}
+
+.imagem3{
+    margin-left: 300px;
+    max-width: 200pt;
+    margin-top: 100px;
+}
+
+.titulo1{
+    text-align: center;
+    color: #005B6B;
+    font-size: 30pt;
+    font-weight: bolder;
+    margin-top: -200px;
+}
+
+.caixa1{
+    text-align: left;
+    color: #FF8100;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-left: 600px;
+}
+
+.titulo2{
+    text-align: center;
+    color: #005B6B;
+    font-size: 30pt;
+    font-weight: bolder;
+    margin-top: -200px;
+}
+
+.caixa2{
+    text-align: left;
+    color: #FF8100;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-left: 600px;
+}
+
+.titulo3{
+    text-align: center;
+    color: #005B6B;
+    font-size: 30pt;
+    font-weight: bolder;
+    margin-top: -200px;
+}
+
+.caixa3{
+    text-align: left;
+    color: #FF8100;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-left: 600px;
+}
+
+footer{
+    color: white;
+    background-color: #FFB800;
+    text-align: center;
+    padding: 10px;
+    margin: -200px;
+    margin-top: 150px;
+}
