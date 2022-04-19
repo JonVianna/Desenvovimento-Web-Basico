@@ -1,0 +1,221 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	color: #444;
+	font-size: 62.5%;
+}
+
+a{
+	text-decoration: none;
+	font-size: 1.6em;
+	color: #00ccff;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.container{
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+}
+
+header{
+	width: 100%;
+	height: 48px;
+	margin-top: 3.19%;
+	margin-bottom: 3.19%;
+}
+
+.logo{
+	width: 20.74%;
+	float: left;
+}
+
+nav{
+	float: right;
+	width: 74.46%;
+}
+
+nav ul{
+	float: right;
+}
+
+nav li{
+	font-size: 1.2em;
+	margin-left: 2.0em;
+	margin-top: 1.0em;
+	display: inline-block;
+}
+
+nav li a{
+	color: #999;
+}
+
+.banner{
+	background: url('../img/banner.jpg');
+	height: 450px;
+	margin-bottom: 4.25%;
+	position: relative;
+}
+
+.caixa{
+	position: absolute;
+	top: 4.25%;
+	background: rgba(0,0,0,0.6); 
+	width: 42.55%;
+	padding:2.12% 1.24% 2.12% 3.54%;
+}
+
+h1{
+	font-size: 4em;
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.caixa p{
+	font-size: 1.8em;
+	color: #fff;
+}
+
+.coluna{
+	width: 23.40%;
+	margin-right: 2.12%;
+	float: left;
+}
+
+.coluna:last-child{
+	margin-right: 0;
+}
+
+h2{
+	font-size: 2.4em;
+}
+
+p{
+	font-size: 1.6em;
+	text-align: justify;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	margin-top: 2.12%;
+	margin-bottom: 2.12%;
+}
+
+p.footer{
+	font-size: 1.0em;
+	margin-bottom: 0;
+}
+
+/* considerar font size como contexto e fazer a conta caso tenha padding e magin */
+
+@media screen and (max-width: 1128px){
+    .container{
+        padding: 0 2.4em 0 2.4em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .caixa{
+        width: 65%;
+    }
+
+    .coluna{
+        width: 48%;
+        margin-right: 4%;
+        margin-bottom: 2.4em;
+    }
+
+    .coluna:nth-child(even){
+        margin-right: 0;
+    }
+
+    .logo{
+        width: 25%;
+        margin-top: 1.2em;
+    }
+}
+
+@media screen and (max-width: 718px){
+    .banner{
+        position: relative;
+        float: left;
+        height: 300px;
+    }
+
+    .caixa{
+        width: 100%;
+        position: relative;
+        background: #000;
+        display: block;
+        margin-top: 250px;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    section{
+        margin-top: 600px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    nav{
+        width: 100%;
+    }
+
+    nav li{
+        font-size: 0.8em;
+        float: left;
+    }
+
+    nav li:first-child{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .coluna{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .caixa{
+        padding: 1.2em 2em 1.2em 2em;
+        position: relative;
+        display: block;
+        width: 100%;
+        background: #000;
+        margin-top: 190px;
+    }
+
+    .banner{
+        height: 200px;
+    }
+
+    section{
+        margin-top: 500px;
+    }
+}
+
+.clearfix.before,
+.clearfix.after{
+    content: "";
+    display: table;
+}
+
+.clearfix.after{
+    clear: both;
+}
+
+.clearfix{
+    *zoom:1;
+}
