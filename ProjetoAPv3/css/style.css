@@ -1,0 +1,194 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+.container{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 48px;
+    margin-top: 3.19%;
+    margin-bottom: 3.19%;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+nav{
+    float: right;
+    width: 74.46%;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    font-size: 1.2em;
+    margin-left: 2.0em;
+    margin-top: 1.0em;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+img{
+    max-width: 100%;
+}
+
+.banner{
+    text-align: center;
+}
+
+.descricao{
+    font-size: 2.0em;
+}
+
+.aprespes{
+    font-size: 2.0em;
+}
+
+.nome{
+    font-size: 6.0em;
+}
+
+.trabalhos{
+    text-align: center;
+    font-size: 3.0em;
+    margin-top: 6%;
+}
+
+.coluna{
+    width: 23.40%;
+    margin-right: 2.12%;
+    float: left;
+}
+
+.coluna:last-child{
+    margin-right: 0;
+}
+
+.coluna p{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.sobre{
+    text-align: center;
+    font-size: 3.0em;
+    margin-top: 35%;
+}
+
+.colsobre{
+    display: inline;
+    width: 23.40%;
+    margin-right: 2.12%;
+    float: left;
+    margin-left: 20%;
+    font-size: 2em;
+}
+
+.carreira{
+    display: inline;
+    font-size: 3em;
+    margin-right: 2.12%;
+}
+
+.imgcursos{
+    display: inline;
+    margin-right: 2.12%;
+    max-width: 10px;
+    max-height: 10px;
+}
+
+.imgolist{
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.descolist{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.olisttituloh2{
+    font-size: 15px;
+    margin: auto;
+}
+
+.olisttitulop{
+    font-size: 12px;
+    margin: 0%;
+    width: 300px;
+}
+
+.alin-olist img{
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+
+.alin-olist{
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.subexperiencia{
+    color: grey;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.experiencia{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 35%;
+}
+
+.texto-olist{
+    margin-top: 20px;
+}
+
+.imgcelero{
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.linha-separatoria{
+    width: 700px;
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+
+.imgboticario{
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.imgadidas{
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.cursos{
+    text-align: center;
+    font-size: 3.0em;
+    margin-top: 20px;
+}
+
