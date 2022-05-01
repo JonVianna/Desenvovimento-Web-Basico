@@ -1,0 +1,11 @@
+No header eu deixei só o nav com a página de "Sobre" e a página de "Contato"
+
+No meio eu criei uma div para segurar e alinhar todos os itens (foto, nome e descrição)
+
+Na parte de trabalhos eu fiz muito parecido com o que já tínhamos feito no site design digital, então eu coloquei as aulas como colunas e depois no css ficou mais fácil de alinhar e tudo mais...
+
+Na parte "sobre" eu só coloquei duas caixas de texto e alinhe elas
+
+Na parte "Experiencia" foi um pouco mais trabalhoso, eu criei uma div para segurar a imagem e depouis
+
+div vazia eu criei e coloquei um border nela pra ficar com esse aspecto de lionha
